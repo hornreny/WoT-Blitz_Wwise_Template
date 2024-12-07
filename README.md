@@ -36,5 +36,5 @@ ui_buttons_tasks<br>
 ui_chat_quick_commands<br>
        sound or voice of chat and quick-commands in battle
 
-voiceover_crew
+voiceover_crew<br>
       sound or voice following(enemy-kill,module or crew damaged,player die, and so on)
