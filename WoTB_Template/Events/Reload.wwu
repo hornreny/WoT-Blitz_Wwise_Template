@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{99C0B75D-583D-4FCF-B90C-683CE168BE8B}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Reload" ID="{99C0B75D-583D-4FCF-B90C-683CE168BE8B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="GUI_notifications_FX_gun_reloaded" ID="{5E20D1AB-C60C-4C9A-AC1C-AB91BE93EB11}">
+					<ChildrenList>
+						<Action Name="" ID="{EDB2DA42-24E7-4558-BC82-13FB6CDC8FA4}" ShortID="765418985">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="reload_finish" ID="{3A1D704B-3C36-47CE-BC08-6CF63D07C753}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

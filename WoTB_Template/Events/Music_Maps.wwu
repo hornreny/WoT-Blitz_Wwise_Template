@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2750B294-C566-451D-A191-D069CE4EEF30}" SchemaVersion="97" RootDocumentID="{E68C2D80-8547-4F52-8D68-D5F9E7DB1FCA}">
+	<Events>
+		<WorkUnit Name="Music_Maps" ID="{2750B294-C566-451D-A191-D069CE4EEF30}" OwnerID="{D5B43E70-30CA-4B4D-92F3-A0D46CE6DA40}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Music_America_Lakville" ID="{80915E73-F2C3-4B70-9D2E-CF3A263227A6}">
+					<ChildrenList>
+						<Action Name="" ID="{630BD8B3-18CD-4ABD-BD37-0EFCEC2EB710}" ShortID="375619678">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="America_Lakville" ID="{4BD6027F-B659-4A97-A42E-F302B4CCB4F4}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D7869539-0695-46E4-86BB-7B2CBF6766F9}" ShortID="322741527">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="hangar_music" ID="{E8533522-BE61-4790-8C38-FAD7C96653A6}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Music_America_Overlord" ID="{B3468F1C-CB85-4EA0-AB07-C0F7CBE6A170}">
+					<ChildrenList>
+						<Action Name="" ID="{1CBEBC17-ADA7-44E0-A101-A64C26F21F56}" ShortID="421944076">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="America_Overlord" ID="{0CF620E8-3B17-4EC1-9886-C7656A43728F}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{BBF00389-AEB6-4C3E-81BE-277B75D054C4}" ShortID="842329925">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="hangar_music" ID="{E8533522-BE61-4790-8C38-FAD7C96653A6}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Music_Chinese" ID="{B7F29B42-6B23-429F-9D1D-CB4489D33603}">
+					<ChildrenList>
+						<Action Name="" ID="{40073B8C-EF05-4619-BCA9-CFDBC8DCBC35}" ShortID="664074038">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Chinese" ID="{0537C30C-05A1-4C9D-A739-C1F7A47D7ED4}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F816C5D2-E5BA-42AA-8A5F-BBF2F64B5E95}" ShortID="861081024">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="hangar_music" ID="{E8533522-BE61-4790-8C38-FAD7C96653A6}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Music_Desert_Airfield" ID="{C6467CDF-6727-4034-9318-D6A2982B2926}">
+					<ChildrenList>
+						<Action Name="" ID="{812FA12C-B5CB-4EE9-AD3E-7E19C7304A2D}" ShortID="282131066">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Desert_Airfield" ID="{98F0A54B-F7D5-4E8F-94BA-34370F60607B}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3F3754BB-CE6B-4367-A9E7-1CED216F1DC1}" ShortID="475026761">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="hangar_music" ID="{E8533522-BE61-4790-8C38-FAD7C96653A6}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Music_Desert_Sand_River" ID="{96DFA2C3-8EC8-420C-AB3A-3428FBAEA440}">
+					<ChildrenList>
+						<Action Name="" ID="{205CAEB2-EE93-4FF3-824A-3510916277C8}" ShortID="551298650">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Desert_Sand_River" ID="{0DFD2C77-224F-41BE-99AE-BAC0B0184691}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5FFDCA85-53D1-4AB6-BDF0-7BAA956E802B}" ShortID="166918935">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="hangar_music" ID="{E8533522-BE61-4790-8C38-FAD7C96653A6}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Music_Europe_Himmelsdorf" ID="{CE137D38-AF79-4687-9B84-E3767CB4677F}">
+					<ChildrenList>
+						<Action Name="" ID="{7A8A5B8E-CE03-475C-84A3-EC3078DDC11F}" ShortID="26895645">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Europe_Himmelsdorf" ID="{B87EE1CC-D998-41C8-8B3F-42FD0BA4AD17}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{82D1549D-CCFB-47CC-ADAE-AC9EDD401F60}" ShortID="496268287">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="hangar_music" ID="{E8533522-BE61-4790-8C38-FAD7C96653A6}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Music_Europe_Mannerheim" ID="{FADAC401-4E69-47DF-9EF6-8388790526D2}">
+					<ChildrenList>
+						<Action Name="" ID="{CB8C2EE8-E78A-4A8D-9BFA-B580C47CB87A}" ShortID="391970585">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Europe_Mannerheim" ID="{4DCC511D-C7C2-4222-8992-4A1A1D626005}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{AE431813-A531-482D-8226-67EE21D056A0}" ShortID="1073715573">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="hangar_music" ID="{E8533522-BE61-4790-8C38-FAD7C96653A6}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Music_Europe_Ruinberg" ID="{5E47A990-2C38-4F69-8A22-61AC6B416848}">
+					<ChildrenList>
+						<Action Name="" ID="{8BA2612C-4DAC-4DA9-9078-9FD5B49AB221}" ShortID="685257983">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Europe_Ruinberg" ID="{728B7D97-6188-42FF-91C8-5E66E1B5E140}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9B684B91-F3F8-403F-8191-6FDE2811631E}" ShortID="391824253">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="hangar_music" ID="{E8533522-BE61-4790-8C38-FAD7C96653A6}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Music_Japan" ID="{E3B66C07-C0D9-4CF4-9819-374ADF860CB8}">
+					<ChildrenList>
+						<Action Name="" ID="{726C89EA-A74D-4003-91E8-D9DF6BDFAD93}" ShortID="370966096">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Japan" ID="{BBA34AB9-4C37-41EB-A1B5-2332239C24BD}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{69A49076-195F-46E7-8AAD-1F4F2CC3C0F6}" ShortID="498769217">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="hangar_music" ID="{E8533522-BE61-4790-8C38-FAD7C96653A6}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Music_Russian_Malinovka" ID="{C1733DEA-8015-4F58-9212-D23B24EB7082}">
+					<ChildrenList>
+						<Action Name="" ID="{6671F2F5-9B52-4970-AF16-A6AE60A5C90F}" ShortID="701821581">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Russian_Malinovka" ID="{1B120779-E472-4CCC-82F6-7069F01B7C77}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D495D0E7-753C-4A3A-9F77-6FCDD4FB4997}" ShortID="211100432">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="hangar_music" ID="{E8533522-BE61-4790-8C38-FAD7C96653A6}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Music_Russian_Prokhorovka" ID="{42F93260-0E26-438C-B8FC-1DDA9AD6981C}">
+					<ChildrenList>
+						<Action Name="" ID="{9B1D29C2-EDA8-45CE-A53A-22FC0E61F2DC}" ShortID="450950517">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Russian_Prokhorovka" ID="{1D412D52-9CFC-4C15-9813-18939B590AE3}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{528D4644-F943-4DD8-A07A-38506F591B01}" ShortID="14618396">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="hangar_music" ID="{E8533522-BE61-4790-8C38-FAD7C96653A6}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

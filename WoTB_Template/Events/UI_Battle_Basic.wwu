@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6076D7A5-2C6A-48D1-BB59-2638E2703064}" SchemaVersion="97" RootDocumentID="{E68C2D80-8547-4F52-8D68-D5F9E7DB1FCA}">
+	<Events>
+		<WorkUnit Name="UI_Battle_Basic" ID="{6076D7A5-2C6A-48D1-BB59-2638E2703064}" OwnerID="{3CEF19F0-CBB8-4A0E-929E-B8E4A8EBC622}" PersistMode="Nested">
+			<ChildrenList>
+				<WorkUnit Name="base_capture" ID="{31C2EDDF-5F61-4AA7-9BCD-AAA246B2BA4F}" PersistMode="Reference"/>
+				<WorkUnit Name="Zoom" ID="{625F041F-F0B7-48BF-88BD-6AD76817B740}" PersistMode="Reference"/>
+				<Event Name="GUI_notifications_FX_lamp" ID="{E68E5B1A-D2D6-41EC-8D21-61FB8BDB40F9}">
+					<ChildrenList>
+						<Action Name="" ID="{966B69DF-8D16-42BA-81D9-B257037B5E02}" ShortID="339090436">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sixsence" ID="{C13E5172-23BD-485A-A678-3DD9F3D64157}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GUI_notifications_FX_enemy_sighted_for_team" ID="{9DC8E594-3031-4276-BF3D-CB1273003B4D}">
+					<ChildrenList>
+						<Action Name="" ID="{6A7691F5-A436-4660-A240-327460A00B6D}" ShortID="576006731">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="enemy_sighted" ID="{38379603-962F-4B25-BEAB-71C7D496A01D}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GUI_notifications_FX_sight_convergence" ID="{11FC7019-2984-4415-9548-3ECFE7ECD341}">
+					<ChildrenList>
+						<Action Name="" ID="{5162E27D-3D0F-4DFD-9562-BBD627F25530}" ShortID="426055999">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sight_convergence" ID="{22ED9E1D-090C-4E24-9601-1D56B47665DD}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GUI_notifications_FX_snipermode_off" ID="{A8419BCD-E927-4D04-8970-C9489D91E46F}">
+					<ChildrenList>
+						<Action Name="" ID="{6A38345A-2663-4EF2-810F-2B9616E3B20F}" ShortID="559020178">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OFF" ID="{2F74B56C-5E81-4A4F-9422-7EACA84CC32B}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GUI_notifications_FX_timer" ID="{F6CD1204-B509-4C9D-9A20-10CDCEB248FA}">
+					<ChildrenList>
+						<Action Name="" ID="{7728BB6C-AEEE-4D05-A889-6EE83082D9DA}" ShortID="67327245">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="timer" ID="{3E299168-054C-4080-A506-174515851FC2}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GUI_notifications_FX_snipermode_on" ID="{387EDB48-18A8-48BC-81EB-A0C9BD4297D3}">
+					<ChildrenList>
+						<Action Name="" ID="{8DED1812-C50B-4E12-B374-DA4E1F0D5A69}" ShortID="525649868">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ON" ID="{4B4E09C6-F4D9-4ACB-9AB3-0380876372D6}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

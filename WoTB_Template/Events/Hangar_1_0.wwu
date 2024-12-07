@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9B32F50D-6949-4D3B-835F-01A46096C4D6}" SchemaVersion="97" RootDocumentID="{E68C2D80-8547-4F52-8D68-D5F9E7DB1FCA}">
+	<Events>
+		<WorkUnit Name="Hangar_1_0" ID="{9B32F50D-6949-4D3B-835F-01A46096C4D6}" OwnerID="{488DFF43-63BF-4DDA-9A20-38E3452A8206}" PersistMode="Nested">
+			<ChildrenList>
+				<Folder Name="Music" ID="{AA17587E-73BF-40ED-A197-3DF33564E429}" ShortID="680011543">
+					<ChildrenList>
+						<Event Name="hangar_ambient_loginscreen_v1_loginscreen" ID="{C533621A-6223-407D-9C7A-256F5B7321DD}">
+							<ChildrenList>
+								<Action Name="" ID="{6D5177B2-1C01-4A9E-862D-CC6F4A3DAD91}" ShortID="75615375">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Loginscreen_music" ID="{DC9F444C-7419-4A3C-ABEE-C7C6590A6E83}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{7A476E8D-6853-4C6E-BF39-61D49B161ED8}" ShortID="742314220">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="hangar_music" ID="{E8533522-BE61-4790-8C38-FAD7C96653A6}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="play_hang_gen_music_stinger_short" ID="{8E48C8F6-A22F-4894-896F-B96C917DC976}">
+					<ChildrenList>
+						<Action Name="" ID="{09A49B1D-9D98-4A60-A6FA-6C4B722C6FE6}" ShortID="618746514">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="In_hangar_first_time" ID="{90E82CC0-19E4-4228-8138-AA7D27B4F160}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

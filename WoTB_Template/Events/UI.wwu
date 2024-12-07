@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3CEF19F0-CBB8-4A0E-929E-B8E4A8EBC622}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="UI" ID="{3CEF19F0-CBB8-4A0E-929E-B8E4A8EBC622}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Buttons" ID="{3AE8D928-A0DE-4D9E-B062-A94D936986A9}" PersistMode="Reference"/>
+				<WorkUnit Name="Buttons_APK" ID="{6F64403A-77B7-4558-AAE1-6D4BB12CDA3E}" PersistMode="Reference"/>
+				<WorkUnit Name="Chat" ID="{676CA519-1F64-4E69-A50E-D2883F2A865D}" PersistMode="Reference"/>
+				<WorkUnit Name="Quick_Commands" ID="{21734ACF-6FDE-4A12-AF47-DA1A6A534317}" PersistMode="Reference"/>
+				<WorkUnit Name="Tasks" ID="{9F10602F-57DD-4694-8BFE-BEE5494072C3}" PersistMode="Reference"/>
+				<WorkUnit Name="UI_Battle" ID="{EC14AA3A-26C8-412E-AE64-FE1FFFBBB601}" PersistMode="Reference"/>
+				<WorkUnit Name="UI_Battle_Basic" ID="{6076D7A5-2C6A-48D1-BB59-2638E2703064}" PersistMode="Reference"/>
+				<WorkUnit Name="Gift" ID="{1D61AE47-F496-4DF2-B46B-3D2896805B19}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

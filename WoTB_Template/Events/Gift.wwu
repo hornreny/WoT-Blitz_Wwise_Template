@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1D61AE47-F496-4DF2-B46B-3D2896805B19}" SchemaVersion="97" RootDocumentID="{E68C2D80-8547-4F52-8D68-D5F9E7DB1FCA}">
+	<Events>
+		<WorkUnit Name="Gift" ID="{1D61AE47-F496-4DF2-B46B-3D2896805B19}" OwnerID="{3CEF19F0-CBB8-4A0E-929E-B8E4A8EBC622}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="play_ui_gift" ID="{AAC93FC2-C936-467F-955C-07C77B4A3501}">
+					<ChildrenList>
+						<Action Name="" ID="{6ED0B7CB-D5AE-46B0-801F-440257E0A5E5}" ShortID="52500709">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="gift_receive" ID="{79C76209-B8A7-4F40-AEBA-DC19E0A031E2}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_ui_gift_open" ID="{7C243B5F-E566-425A-B4B9-428EE96C691C}">
+					<ChildrenList>
+						<Action Name="" ID="{D1DB37B7-C2D1-4DBE-A965-430A393F97EC}" ShortID="169580222">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="gift_open" ID="{F934C517-1D65-47FB-8EC8-7BA8D0E4FF5D}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

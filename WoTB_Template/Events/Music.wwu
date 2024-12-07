@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D5B43E70-30CA-4B4D-92F3-A0D46CE6DA40}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Music" ID="{D5B43E70-30CA-4B4D-92F3-A0D46CE6DA40}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Music_Hangar" ID="{DC222C53-B6C7-4EEE-BD2D-615D18DF4E8D}" PersistMode="Reference"/>
+				<WorkUnit Name="Music_Maps" ID="{2750B294-C566-451D-A191-D069CE4EEF30}" PersistMode="Reference"/>
+				<WorkUnit Name="Music_Resultscreen" ID="{8F15D675-9CFC-4F93-9CDF-27E183F987D5}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

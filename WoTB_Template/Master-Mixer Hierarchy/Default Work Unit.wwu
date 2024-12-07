@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{18F7E8C8-3FC0-4777-8B63-7E05CDC36C9D}" SchemaVersion="97">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{18F7E8C8-3FC0-4777-8B63-7E05CDC36C9D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{C9D5561B-3F11-4E2E-9BD0-1AF80F35EEFD}" WorkUnitID="{2ACD7ADC-3D33-4A79-B0CC-79354E3405DB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="HDR" ID="{CB556862-17C2-4899-9789-1CD8F95B6F05}">
+							<ChildrenList>
+								<Bus Name="Music" ID="{8A2DE8D1-047F-4B77-ADFE-8971CDF46DF2}">
+									<ChildrenList>
+										<Bus Name="MUSIC_HANGAR" ID="{2BEC5A8C-0A94-4F0E-8E3E-B4833D087A31}">
+											<ChildrenList>
+												<Bus Name="music_event_special" ID="{806FEDB3-25AC-48A2-9FDD-8AF31DEB78BF}">
+													<ChildrenList>
+														<AuxBus Name="hangar_rev" ID="{8FE4D30F-4DB5-4731-BB0F-91012FD5828C}"/>
+													</ChildrenList>
+												</Bus>
+											</ChildrenList>
+										</Bus>
+									</ChildrenList>
+								</Bus>
+								<Bus Name="SFX" ID="{35451B6A-21C5-45B0-BD08-B3DBE94F7CCC}">
+									<ChildrenList>
+										<Bus Name="HANGAR" ID="{3A80DE1B-634B-4AEF-BEB7-75B40E877053}">
+											<ChildrenList>
+												<AuxBus Name="aux_hng_gen_reverb" ID="{C6DCDCFE-325F-4B1A-88C1-9DA604BA13FC}"/>
+											</ChildrenList>
+										</Bus>
+										<AuxBus Name="AUX_inside_tank" ID="{DABA24FA-7967-461E-9EDA-90E579860128}"/>
+									</ChildrenList>
+								</Bus>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="VOICEOVER" ID="{DEE02EC0-AF6A-46EA-8AD3-625506B32F68}">
+							<ChildrenList>
+								<AuxBus Name="AUX_inside_tank_VO" ID="{FCDA708E-0AB0-4FD7-B52F-86EAB3BF39EC}"/>
+							</ChildrenList>
+						</Bus>
+					</ChildrenList>
+				</Bus>
+				<Bus Name="Motion Factory Bus" ID="{2AF9B9C6-6EF1-46E9-B5F2-E30C9E602C74}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="Default_Motion_Device" ID="{A2A8854F-7059-4E6B-B24D-3F0FD71E7A48}" WorkUnitID="{2ACD7ADC-3D33-4A79-B0CC-79354E3405DB}"/>
+						</Reference>
+					</ReferenceList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

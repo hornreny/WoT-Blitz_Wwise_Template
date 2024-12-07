@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{676CA519-1F64-4E69-A50E-D2883F2A865D}" SchemaVersion="97" RootDocumentID="{E68C2D80-8547-4F52-8D68-D5F9E7DB1FCA}">
+	<Events>
+		<WorkUnit Name="Chat" ID="{676CA519-1F64-4E69-A50E-D2883F2A865D}" OwnerID="{3CEF19F0-CBB8-4A0E-929E-B8E4A8EBC622}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="GUI_notifications_FX_chat_chat_from_all" ID="{7131C389-6746-48A5-8937-490CC6F04A1D}">
+					<ChildrenList>
+						<Action Name="" ID="{1E3E3EB2-7981-4D7D-8B20-72BF0B9DB633}" ShortID="617085518">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="player_send_to_all" ID="{FD9AFC28-E5CC-4B6F-8C71-5A79BC6BC1E9}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GUI_notifications_FX_chat_chat_from_allies" ID="{E75EB1EF-FC3B-4BAB-B530-1F865BBB5071}">
+					<ChildrenList>
+						<Action Name="" ID="{459A3682-EFB3-47B1-8105-9E641CE84CFA}" ShortID="268620513">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="player_send_to_allies" ID="{3725FF10-B7C6-48C4-AE22-CF8EF17A4B29}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GUI_notifications_FX_chat_chat_from_squad" ID="{D89DB279-D6B4-413C-803C-ACE3E47E781D}">
+					<ChildrenList>
+						<Action Name="" ID="{BD1216DB-BCCF-4729-8E65-25034B35E827}" ShortID="726227379">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="player_send_to_squad" ID="{342F354A-0752-4C1B-9CDF-075BD21380F8}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GUI_notifications_FX_chat_chat_to_all" ID="{2C6AA8B9-F647-4853-9AC6-2D8CD09AB085}">
+					<ChildrenList>
+						<Action Name="" ID="{91E7A34D-7817-4176-B928-A3E5B4045793}" ShortID="956906940">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="others_send_to_all" ID="{2CF2ED23-4DAF-4047-B360-A12BE9A0715F}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GUI_notifications_FX_chat_chat_to_allies" ID="{376A6D55-84B4-49A4-ABBA-7737FE9A1A51}">
+					<ChildrenList>
+						<Action Name="" ID="{65C27234-AC15-4AFB-9EA0-6964F0838E96}" ShortID="441730423">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="others_send_to_allies" ID="{9547E10D-C8B8-4B39-B3BD-3FBAFE9B4C9D}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GUI_notifications_FX_chat_chat_to_squad" ID="{39F94FB0-5F67-46C9-976D-209F0665CA62}">
+					<ChildrenList>
+						<Action Name="" ID="{189770E0-4D26-41C6-894A-FA0C9C7B3358}" ShortID="151620360">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="others_send_to_squad" ID="{B89947E3-5D89-4DCA-9B27-157C7FCEB3D4}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

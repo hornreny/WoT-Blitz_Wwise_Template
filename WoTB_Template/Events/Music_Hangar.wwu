@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DC222C53-B6C7-4EEE-BD2D-615D18DF4E8D}" SchemaVersion="97" RootDocumentID="{E68C2D80-8547-4F52-8D68-D5F9E7DB1FCA}">
+	<Events>
+		<WorkUnit Name="Music_Hangar" ID="{DC222C53-B6C7-4EEE-BD2D-615D18DF4E8D}" OwnerID="{D5B43E70-30CA-4B4D-92F3-A0D46CE6DA40}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="play_music_hng_main" ID="{E5965E52-CF99-46BD-9B68-B76E2EA8DE6E}">
+					<ChildrenList>
+						<Action Name="" ID="{DF4B08F1-CCA9-4C53-BF33-CA7B50896EFE}" ShortID="932089948">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="hangar_music" ID="{E8533522-BE61-4790-8C38-FAD7C96653A6}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

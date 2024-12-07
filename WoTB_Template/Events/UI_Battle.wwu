@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EC14AA3A-26C8-412E-AE64-FE1FFFBBB601}" SchemaVersion="97" RootDocumentID="{3CEF19F0-CBB8-4A0E-929E-B8E4A8EBC622}">
+	<Events>
+		<WorkUnit Name="UI_Battle" ID="{EC14AA3A-26C8-412E-AE64-FE1FFFBBB601}" OwnerID="{3CEF19F0-CBB8-4A0E-929E-B8E4A8EBC622}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="GUI_notifications_FX_adrenalin_off" ID="{C86005D7-AE4C-44EE-80CA-67BCACCEC482}">
+					<ChildrenList>
+						<Action Name="" ID="{0DB32410-2BE0-4B6F-825E-A1EF97785CC7}" ShortID="631426167">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="END" ID="{9E634001-BA24-4C5A-A7E6-3A0A8C56DDF4}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GUI_notifications_FX_adrenalin_start" ID="{8970FEAB-02B2-46F1-9F6D-837B5580A2F0}">
+					<ChildrenList>
+						<Action Name="" ID="{E92A1206-160F-45BF-99A3-AD4A68FF55BC}" ShortID="249180687">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="START" ID="{5BB55EBD-7BEF-48EF-9F5E-57CDD3C7C81D}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GUI_notifications_FX_auto_target_off" ID="{2D30B926-65D0-4FFF-8119-8C47CDD7EC76}">
+					<ChildrenList>
+						<Action Name="" ID="{E533F60B-1EE0-4C7A-9CAD-FB73C3CF543C}" ShortID="387544814">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OFF" ID="{BD7D3E1A-A7E9-4D24-8EFF-552D51644A23}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GUI_notifications_FX_auto_target_on" ID="{DD16C6E0-779B-4C92-A635-77452CBE9DAE}">
+					<ChildrenList>
+						<Action Name="" ID="{77558B31-0AE7-4858-BD8A-A84966572F25}" ShortID="406525610">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ON" ID="{0BDC1A44-2A52-484E-9DC1-BBC037F61611}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GUI_notifications_FX_fire_extinguisher" ID="{F0637DFB-C808-4407-A24D-260BFD6FFA5C}">
+					<ChildrenList>
+						<Action Name="" ID="{5F8F5359-73FD-41CA-AF0A-02386661BA25}" ShortID="919613911">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="fire_extinguisher" ID="{945F3FA1-34C0-4E60-88C1-CF22FA68806D}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GUI_notifications_FX_furious_off" ID="{3182B918-B279-45FB-8356-5524C3A179AD}">
+					<ChildrenList>
+						<Action Name="" ID="{31BAB303-4C59-49BE-BEF0-17B38E9E1C1C}" ShortID="979430186">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="booster_end_and_armor_start" ID="{A8E16A3C-9055-4989-85DF-B3DF40AEF977}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GUI_notifications_FX_furious_start" ID="{C7D9BD63-8E5F-49A3-A52F-A699B5445351}">
+					<ChildrenList>
+						<Action Name="" ID="{8BA3C23C-D161-46A7-8545-54EE78A7FB72}" ShortID="363329447">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="booster_start_and_scope_start" ID="{9C3FA0AA-2949-4E0C-A5BB-A3A234CF562A}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GUI_notifications_FX_medikit" ID="{ABB1B5C9-4C98-414D-9C80-E79B64BBC8AB}">
+					<ChildrenList>
+						<Action Name="" ID="{2CF7A4AC-8614-4372-A6A0-DEEB521A4A0B}" ShortID="679421681">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="medikit" ID="{2775CA79-A986-4933-BEE6-2D3E200AE4E1}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GUI_notifications_FX_perk_shooter" ID="{97905930-2EAE-4EB8-8FB6-E3A427FB09B0}">
+					<ChildrenList>
+						<Action Name="" ID="{45EB8501-0061-4582-A36E-6B6DE0154D8C}" ShortID="995759947">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="perk_shooter" ID="{6C3E4C0B-7965-4F64-8A48-66DC56C437CD}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GUI_notifications_FX_perk_shooter_max" ID="{3A20C3CF-0D9C-4221-BA48-82FD13090292}">
+					<ChildrenList>
+						<Action Name="" ID="{888CB3C2-11D2-44B8-BF70-177DE636832F}" ShortID="588350633">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="perk_shooter_max" ID="{B57652B1-513A-4B54-A42E-2789626C5DFC}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GUI_notifications_FX_quick_commands_close" ID="{711A9D73-3DD5-490F-B895-6FD09509A8A0}">
+					<ChildrenList>
+						<Action Name="" ID="{CFE8B3A5-D4F5-41D7-9E41-B70A64846E76}" ShortID="752418198">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="close" ID="{0260CDE1-9C8A-40A7-9AF4-A5629ABAF605}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GUI_notifications_FX_quick_commands_open" ID="{D0E04FCE-55CD-49C6-A3E1-09101AB5D51E}">
+					<ChildrenList>
+						<Action Name="" ID="{A95B9FB4-3CF8-497C-A47B-B3FD8087DC2F}" ShortID="965246804">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="open" ID="{8B659E35-0F65-4087-A151-960F2177F601}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GUI_notifications_FX_quick_commands_select" ID="{9D607797-3DFA-4FF1-B9CF-A4D7E95EF6EA}">
+					<ChildrenList>
+						<Action Name="" ID="{A51D42DB-D98A-4FF2-BF5B-25D0E3DC42DA}" ShortID="615736081">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="select" ID="{F643498C-CDDA-4D27-A7F2-2172A59BA34E}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GUI_notifications_FX_repair" ID="{139BA4A2-ABEF-4B8C-A86E-3CC0528F4014}">
+					<ChildrenList>
+						<Action Name="" ID="{DA392AB0-E943-4C97-8479-AEF161B00E82}" ShortID="943358621">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="repair" ID="{DBFFB190-BEB2-4CB1-8D10-B50BD95F81DB}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GUI_notifications_FX_restorer" ID="{14DEA95C-6AB4-4580-BB43-7A03689D28F3}">
+					<ChildrenList>
+						<Action Name="" ID="{DE0930CB-619C-410E-BC7A-042E11F6C15E}" ShortID="325824583">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="restore" ID="{25AD6AC4-B7E8-4B72-ACB7-B6BD8CD06F64}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GUI_notifications_FX_shells_choose" ID="{9CD57C62-2512-4A67-B654-6A4A5542DF08}">
+					<ChildrenList>
+						<Action Name="" ID="{F03EC4E1-9230-421F-B1DD-EE8588DC3595}" ShortID="573406082">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="shell_choose" ID="{3D5FE5A6-6CE4-4B5B-8521-458921BD237E}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GUI_notifications_FX_shells_close" ID="{75DE2C57-B347-4697-BCC1-5E6DA65875A1}">
+					<ChildrenList>
+						<Action Name="" ID="{D601CCC5-70C3-4DEC-BA25-6D32EF3F7FFA}" ShortID="591199439">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="shell_close" ID="{1B338FBB-8318-44F0-B4DC-C49E93670F3B}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GUI_notifications_FX_shells_open" ID="{B5FE8996-292B-43E8-A2F6-EDC97ACC000E}">
+					<ChildrenList>
+						<Action Name="" ID="{FBCD3CCA-4772-4FB1-9A5C-63693DC1B600}" ShortID="822200702">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="shell_open" ID="{171BEF91-18F7-4C91-9FD5-BDCABB591426}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GUI_notifications_FX_stripe" ID="{AF34F696-B57E-4197-B283-C2070D70BB14}">
+					<ChildrenList>
+						<Action Name="" ID="{BB3B2DA1-298C-46D2-BF7A-59D545DB9108}" ShortID="447646379">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="stripe" ID="{0810EA13-8439-4D98-B69D-AAA7A196A3F3}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_ui_btl_minimap_tap" ID="{C986616A-76C4-4A43-B474-41BD211C79F4}">
+					<ChildrenList>
+						<Action Name="" ID="{A4F29B09-2982-48F8-B7D2-6125FBCF8908}" ShortID="24774178">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="minimap_tap" ID="{F17C624B-7FD0-44F9-956B-93423FC652C5}" WorkUnitID="{9C72255D-226F-4A35-9D82-1CF7853FEBD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
