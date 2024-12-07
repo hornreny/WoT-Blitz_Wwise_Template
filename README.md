@@ -6,34 +6,34 @@ You need to use Wwise(version 2019.2.15)
 
 # This includes following bnk.
 
-music_maps_○○
+music_maps_○○<br>
        loading before battle
        
-apk
+apk<br>
       login screen
 
-music_hangar
+music_hangar<br>
        music in hangar
 
-music_result_screen
+music_result_screen<br>
        sound or voice in result screen when you defeat or draw
 
-music_result_screen_basic
+music_result_screen_basic<br>
        sound or voice in result screen when you victory
 
-reload
+reload<br>
       sound or voice reload is finished
 
-ui_battle
+ui_battle<br>
        sound or voice following(adrenalin,rock-on,repair-kit,tap-minimap,shell-choose,and so on)
 
-ui_battle_basic
+ui_battle_basic<br>
        sound or voice following(base-capture,enemy-spotted,sixsense,and so on)
        
-ui_buttons_tasks
+ui_buttons_tasks<br>
       sound or voice of clicking and message in hangar
       
-ui_chat_quick_commands
+ui_chat_quick_commands<br>
        sound or voice of chat and quick-commands in battle
 
 voiceover_crew
